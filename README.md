@@ -1,3 +1,4 @@
 # LA1400
-Robocode
+Liams Robocode
+
 [Java Code](https://github.com/TigerL06/LA1400/blob/main/Astat.java)
