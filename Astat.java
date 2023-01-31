@@ -74,12 +74,12 @@ public class Astat extends JuniorRobot
 	public void onHitByBullet() {
 		//variable declaration
 		int my_hitByBulletBearing = hitByBulletBearing;
-	    //Common moves when attacked
+	    	//Common moves when attacked
 		back(20);
 		turnAheadLeft(100, 90 + hitByBulletBearing);
 		retreatWhenLowEnergy();
 	
-		}
+	}
 		
 	
 	
@@ -93,8 +93,8 @@ public class Astat extends JuniorRobot
 		
 
 	public void retreatWhenLowEnergy() {
-       
-		 if (energy < 20) {
+       	
+	if (energy < 20) {
             back(fieldHeight / 2);
             turnRight(180);
             ahead(fieldHeight / 4);
